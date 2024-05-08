@@ -25,7 +25,8 @@
   "jest": {
     "automock": false,
     "setupFiles": [
-      "./jest.setup.js"
+      "./jest.setup.js",
+      "jest-fetch-mock"
     ],
     "testEnvironment": "node"
   }
